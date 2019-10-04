@@ -1,11 +1,11 @@
-<!-- Home Page -->
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <title>2018 Player Info</title>
+    <title>2019 Player Info</title>
 	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
     <!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -37,71 +37,33 @@
 	  </div>
 	</nav>
 	<div class="container">
-		<!--Add your code for the home page here -->
-		<!-- Home Page Requirements: 
-		Your home page must include the following components:
-
-			1. A header tag with a message welcoming the user to your website
-			2. An image (related to Football or specifically the Buffs team)
-			3. A short description of your website (2 sentences).
-			4. A Hyperlink to the Buffs official home page [ https://cubuffs.com/ ]
-			5. At least 1 Bootstrap class to modify your content
-
-		
-		-->
-		<CENTER>
-			<div class="jumbotron jumbotron-fluid">
-				<div class="container">
-					<h1 class="display-4">Welcome to the Website!</h1>
-					<img src="../resources/img/cu_boulder_logo.jpg" alt="CU Boulder Football" height="240px" width="240px">
-					<p class="lead">This is a website for CU Buffs fans! If you a Buffs fan, this is the site for you!</p>
-					<p>For more info, go to the Buffs <a href="https://cubuffs.com/">official home page</a></p>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-4">
+				<img class="rounded img-fluid" src="../resources/img/helmet.jpg" alt="CU Boulder Football Helmet">
+			</div>
+			<div class="col-8">
+				<div class="jumbotron">
+				  <h1 class="display-4">Welcome to CU Boulder's Football Home Page!</h1>
+				  <p class="lead">If you are interested in learning about the best collegiate football team in the Rockies, then you've come to the right place.
+									Here you'll find the scores for the latest football season and the most up-to-date stats on our football players.  To find out more information
+									about Ralphie and the Buff Football Team, head over <a href="https://cubuffs.com/" >here</a></p>
+					<hr>
+				  <p> Source for Image: <a href="https://www.cubookstore.com/p-80451-colorado-buffaloes-mini-speed-football-helmet.aspx">CU Bookstore</a> </p>
+					<hr>
+				  <button class="btn btn-light" onclick="changeColor('')">Default Background</button>
+				  <button class="btn btn-primary" onclick="changeColor('blue')">Blue Background</button>
+				  <button class="btn btn-danger" onclick="changeColor('red')">Red Background</button>
+				  <button class="btn btn-success" onclick="changeColor('green')">Green Background</button>
 				</div>
 			</div>
-
-			<table class="table" style="text-align: center">
-				<thead>
-					<tr>
-						<th rowspan="2">Game Date</th>
-						<th rowspan="2">Opposing Team Name</th>
-						<th colspan="2">Score</th>
-						<th rowspan="2">Winner</th>
-					</tr>
-					<tr>
-						<th>Home Score</th>
-						<th>Opp. Score</th>
-					</tr>
-				</thead>
-
-				<tbody>
-					<tr>
-						<th scope="row">date</th>
-						<td>Colorado State</td>
-						<td>score</td>
-						<td>score</td>
-						<td>Cu Boulder</td>
-					</tr>
-					<tr>
-						<th scope="row">date</th>
-						<td>Nebraska</td>
-						<td>score</td>
-						<td>score</td>
-						<td>Cu Boulder</td>
-					</tr>
-					<tr>
-						<th scope="row">date</th>
-						<td>New Hampshire</td>
-						<td>score</td>
-						<td>score</td>
-						<td>Cu Boulder</td>
-					</tr>
-				</tbody>
-			</table>
-		</CENTER>
+		</div>
 	</div>
-  
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</body>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	  <script src="../resources/js/my_scripts.js"></script>
+  </body>
 </html>
