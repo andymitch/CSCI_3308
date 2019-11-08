@@ -155,7 +155,6 @@ const loadPlayersPage = () => {
 */
 
 const switchPlayers = i => {
-	console.log(i)
 	document.getElementById('p_year').innerText = players[i].year
 	document.getElementById('p_major').innerText = players[i].major
 	document.getElementById('g_played').innerText = players[i].games_played
@@ -164,7 +163,6 @@ const switchPlayers = i => {
 	document.getElementById('p_yards').innerText = players[i].pass_yards
 	document.getElementById('r_yards').innerText = players[i].rushing_yards
 	document.getElementById('rec_yards').innerText = players[i].receiving_yards
-
 	document.getElementById('avg_p_yards').innerText = Math.round(players[i].pass_yards/players[i].games_played)
 	document.getElementById('avg_r_yards').innerText = Math.round(players[i].rushing_yards/players[i].games_played)
 	document.getElementById('avg_rec_yards').innerText = Math.round(players[i].receiving_yards/players[i].games_played)
